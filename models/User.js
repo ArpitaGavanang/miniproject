@@ -25,8 +25,8 @@ const UserSchema = new Schema({
   },
   address: {
     type: String,
-    required : true
+    required: true,
   },
 });
 
-module.exports = mongoose.model('user',UserSchema);
+module.exports = mongoose.model("user", UserSchema);
